@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "prettier": "^1.11.1"
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1",
+    "release-it": "^7.3.0"
   }
 }
