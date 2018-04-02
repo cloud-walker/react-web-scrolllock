@@ -1,6 +1,12 @@
 {
+  "name": "@cloudwalker/react-web-scrolllock",
+  "version": "0.0.0",
+  "main": "source/index.js",
   "scripts": {
     "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "prettier": "^1.11.1",
