@@ -1,6 +1,6 @@
 {
   "name": "@cloudwalker/react-web-scrolllock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description":
     "Simple react component that will prevent `document.body` from scroll, useful to compose with components that needs a fixed body to work at best, like a modal for example.",
   "author": "Luca Barone",
@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "prepublish": "rimraf dist && rollup -c",
+    "prepare": "rimraf dist && rollup -c",
     "release": "np"
   },
   "publishConfig": {
