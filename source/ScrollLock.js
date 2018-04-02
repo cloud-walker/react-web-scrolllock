@@ -36,7 +36,7 @@ export class ScrollLock extends React.Component {
       )(originalStyles)
     }
 
-    lock++
+    locks++
   }
   componentWillUnmount() {
     locks--
