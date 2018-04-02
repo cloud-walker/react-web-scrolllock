@@ -1,6 +1,6 @@
 {
   "name": "@cloudwalker/react-web-scrolllock",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0",
   "main": "source/index.js",
   "scripts": {
     "release": "release-it"
