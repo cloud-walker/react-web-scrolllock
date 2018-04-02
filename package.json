@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "prepublish": "rimraf dist && npm run build",
+    "prepublish": "rimraf dist && rollup -c",
     "release": "np"
   },
   "publishConfig": {
