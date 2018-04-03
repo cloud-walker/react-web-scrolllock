@@ -974,10 +974,6 @@ get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
-github-url-from-git@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
-
 glob-base@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"
@@ -1048,10 +1044,6 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-has-flag@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
-
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
@@ -1070,10 +1062,6 @@ home-or-tmp@^2.0.0:
 hosted-git-info@^2.1.4:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.6.0.tgz#23235b29ab230c576aab0d4f13fc046b0b038222"
-
-hyperlinker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
 
 iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.19"
@@ -1302,10 +1290,6 @@ isomorphic-fetch@^2.1.1:
   dependencies:
     node-fetch "^1.0.1"
     whatwg-fetch ">=0.10.0"
-
-issue-regex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/issue-regex/-/issue-regex-1.0.0.tgz#54fccf62ea65e4f47207572b8b78c1b3d9de5f77"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -1580,19 +1564,16 @@ normalize-path@^2.0.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
-np@^2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/np/-/np-2.20.1.tgz#6369add67598d0de8cfeecf308249b6bb55a4bfb"
+np@2.19:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/np/-/np-2.19.0.tgz#974cb619008f7ef23667e8b11ca886e86dbc3777"
   dependencies:
     any-observable "^0.2.0"
     chalk "^2.3.0"
     del "^3.0.0"
     execa "^0.8.0"
-    github-url-from-git "^1.5.0"
     has-yarn "^1.0.0"
-    hyperlinker "^1.0.0"
     inquirer "^3.0.6"
-    issue-regex "^1.0.0"
     listr "^0.12.0"
     listr-input "^0.1.1"
     log-symbols "^2.1.0"
@@ -1604,7 +1585,6 @@ np@^2.20.1:
     semver "^5.2.0"
     split "^1.0.0"
     stream-to-observable "^0.2.0"
-    supports-hyperlinks "^1.0.1"
     update-notifier "^2.1.0"
 
 npm-run-path@^2.0.0:
@@ -2191,18 +2171,11 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-supports-color@^5.0.0, supports-color@^5.3.0:
+supports-color@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
   dependencies:
     has-flag "^3.0.0"
-
-supports-hyperlinks@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-1.0.1.tgz#71daedf36cc1060ac5100c351bb3da48c29c0ef7"
-  dependencies:
-    has-flag "^2.0.0"
-    supports-color "^5.0.0"
 
 symbol-observable@1.0.1:
   version "1.0.1"
