@@ -13,9 +13,7 @@ let originalStyles = {}
 let locks = 0
 
 export class ScrollLock extends React.Component {
-  state = {foo: 'bar'}
-
-  componentDidMount() {
+  componentDidMount = () => {
     if (!locks) {
       const originalPaddingRight = body.style['padding-right']
         ? parseInt(body.style['padding-right'], 10)
@@ -33,12 +31,12 @@ export class ScrollLock extends React.Component {
           originalStyles[k] = body.style[k]
           body.style[k] = v
         }),
-      )(originalStyles)
+      )(lockStyles)
     }
 
     locks++
   }
-  componentWillUnmount() {
+  componentWillUnmount = () => {
     locks--
 
     // Re-apply original styles
